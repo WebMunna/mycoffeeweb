@@ -5,6 +5,7 @@ import { FaWrench, FaCog, FaTimes } from 'react-icons/fa'
 import { logOut } from "../features/coffeeSlice"
 import { getProfileData, profileEdit, profileEditPic } from "../features/panelSlice"
 import { toast } from 'react-toastify'
+
 // import path from 'path'
 
 
@@ -244,8 +245,8 @@ const MyAccount = () => {
         <div className={contentWithButton2}>
 
           <div className={imageBox}>
-             {/* <img className={imgBox} src={`http://localhost:5000/${hpicture}`} alt="profile image" /> */}
-             <img className={imgBox} src={`/${hpicture}`} alt="profile image" />
+             <img className={imgBox} src={`https://coffeewebapi.herokuapp.com/${hpicture}`} alt="profile image" />
+             {/* <img className={imgBox} src={`/${hpicture}`} alt="profile image" /> */}
           </div>
 
             {

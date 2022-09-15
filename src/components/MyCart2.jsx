@@ -182,8 +182,8 @@ const goToUserPanel = () => {
      })
     const id = JSON.parse(localStorage.getItem('user'))._id
    const session = await axios(
-    // `http://localhost:5000/api/payment/paynow/${id}`
-    `/api/payment/paynow/${id}`
+    `https://coffeewebapi.herokuapp.com/api/payment/paynow/${id}`
+    // `/api/payment/paynow/${id}`
    )
 
    

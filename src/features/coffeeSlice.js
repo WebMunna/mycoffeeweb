@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 
 
 // const baseURL = "http://localhost:5000/api/"
-const baseURL = "/api/"
+const baseURL = "https://coffeewebapi.herokuapp.com/api/"
 
 const initialState = {
     // user : localStorage.getItem('user') ? localStorage.getItem('user') : null,

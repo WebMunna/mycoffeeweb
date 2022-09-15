@@ -54,7 +54,7 @@ const CustomerReview = () => {
   
   
     const pic = hpicture.toString().replace('\\', '/')
-    const img1 = `http://localhost:5000/${pic}`
+    const img1 = `https://coffeewebapi.herokuapp.com/${pic}`
 
 
   

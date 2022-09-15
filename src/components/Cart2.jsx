@@ -195,7 +195,7 @@ const Cart2 = ({data}) => {
             <div className={deleteCart} onClick={deleteHandler}> <FaTimes/> </div>
             <div className={totalPrice}>Total: {totalWithQuantity}$</div>
           <div className={cartImage}>
-          <img className={imgBox} src={`http://localhost:5000/${data.picture}`} alt="cartImg" />
+          <img className={imgBox} src={`https://coffeewebapi.herokuapp.com/${data.picture}`} alt="cartImg" />
           </div>
           <div className={productName}>
               {data.name}

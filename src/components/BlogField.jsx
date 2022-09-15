@@ -196,10 +196,10 @@ const BlogField = () => {
   
 
   const pic = hpicture.toString().replace('\\', '/')
-  const img1 = `http://localhost:5000/${pic}`
+  const img1 = `https://coffeewebapi.herokuapp.com/${pic}`
 
   // const pic2 = spicture.replace('\\', '/')
-  const img2 = `http://localhost:5000/${spicture}`
+  const img2 = `https://coffeewebapi.herokuapp.com/${spicture}`
 
 
 

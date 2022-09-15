@@ -29,7 +29,7 @@ const Blog = ({data}) => {
 
 
     const pic = data.picture.toString().replace('\\', '/')
-    const img1 = `http://localhost:5000/${pic}`
+    const img1 = `https://coffeewebapi.herokuapp.com/${pic}`
 
     let mainBox = `   h-[450px] rounded-md   flex flex-col items-left justify-between  ${nightMode ? 'bg-zinc-800' : 'bg-slate-200'} drop-shadow-md`
     let itemPic = '  '

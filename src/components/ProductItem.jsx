@@ -130,7 +130,8 @@ const checkoutItems =  JSON.parse(localStorage.getItem('react-use-cart'))
 
 
     const pic = data.picture.toString().replace('\\', '/')
-    const img1 = `http://localhost:5000/${pic}`
+    // const img1 = `http://localhost:5000/${pic}`
+    const img1 = `https://coffeewebapi.herokuapp.com/${pic}`
 
     let mainBox = `h-[400px] p-[5px] rounded-md flex flex-col items-center justify-around ${nightMode ? 'bg-zinc-800' : 'bg-slate-200'} drop-shadow-md`
 

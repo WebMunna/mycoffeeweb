@@ -23,7 +23,7 @@ const Review = ({data}) => {
 
 
     const pic = data.picture.toString().replace('\\', '/')
-    const img1 = `http://localhost:5000/${pic}`
+    const img1 = `https://coffeewebapi.herokuapp.com/${pic}`
 
     let mainBox = `  text-center h-[350px] flex flex-col items-center justify-between ${nightMode ? 'bg-zinc-800' : 'bg-slate-200'} drop-shadow-md`
     let shapes = ' w-[100px] flex items-center justify-center mx-auto'

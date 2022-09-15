@@ -212,7 +212,7 @@ const OurProductSetting = () => {
   const img1 = `http://localhost:5000/${pic}`
 
   // const pic2 = spicture.replace('\\', '/')
-  const img2 = `http://localhost:5000/${spicture}`
+  const img2 = `https://coffeewebapi.herokuapp.com/${spicture}`
 
 
 

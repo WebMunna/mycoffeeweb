@@ -6,9 +6,9 @@ import axios from "axios";
 // const baseURL = "http://localhost:5000/api/adminpanel/"
 // const baseURL2 = "http://localhost:5000/api/userpanel/"
 // const baseURL3 = "http://localhost:5000/api/payment/"
-const baseURL = "/api/adminpanel/"
-const baseURL2 = "/api/userpanel/"
-const baseURL3 = "/api/payment/"
+const baseURL = "https://coffeewebapi.herokuapp.com/api/adminpanel/"
+const baseURL2 = "https://coffeewebapi.herokuapp.com/api/userpanel/"
+const baseURL3 = "https://coffeewebapi.herokuapp.com/api/payment/"
 
 const initialState = {
 

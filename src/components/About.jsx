@@ -65,7 +65,7 @@ const About = () => {
   
   
     const pic = hpicture.toString().replace('\\', '/')
-    const img1 = `http://localhost:5000/${pic}`
+    const img1 = `https://coffeewebapi.herokuapp.com/${pic}`
 
 
     let mainBox = 'pt-[70px] container w-[90%] mx-auto '
